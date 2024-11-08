@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import Shoppinglist from "../shopping-list/shopping-list";
+// import Shoppinglist from "../shopping-list/shopping-list";
 import { addItem } from '../../redux/actions';
 import '../../index.css';
 
@@ -28,7 +28,7 @@ const Home = () => {
         <button onClick={handleAddItem}>Add Item</button>
       </div>
 
-      <Shoppinglist />
+      {/* <Shoppinglist /> */}
     </>
   );
 };
